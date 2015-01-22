@@ -151,5 +151,21 @@ namespace _02LaptopShop
             this.Bateria= bateria;
       
         }
+
+        public Laptop(string model, decimal price, Battery bateria, string processor):this(model,price,bateria)
+            
+        {
+            this.processor = processor;
+
+        }
+
+        public override string ToString()
+        {
+           
+                return string.Format("Model: {0}, Price: {1}, Battery: {2}, Processor:{3}",
+                this.Model, this.Price, this.Bateria.ToString(), this.Processor);
+            
+
+        }
     }
 }

@@ -71,5 +71,14 @@ namespace _02LaptopShop
             this.BatteryAmperage = batteryAmperage;
             this.BatteryLife = batteryLife;
         }
+
+        public override string ToString()
+        {
+
+            return string.Format("Bateery Type: {0}, Cells: {1}, Amperage: {2}, Life:{3}",
+            this.BatteryType, this.BatteryNumberOfCells, this.BatteryAmperage, this.BatteryLife);
+
+
+        }
     }
 }
