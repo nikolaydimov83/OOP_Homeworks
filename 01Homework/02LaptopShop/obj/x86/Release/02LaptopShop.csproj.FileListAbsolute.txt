@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\01Homework\02LaptopShop\bin\Release\02LaptopShop.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\01Homework\02LaptopShop\bin\Release\02LaptopShop.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\01Homework\02LaptopShop\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\01Homework\02LaptopShop\obj\x86\Release\02LaptopShop.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\01Homework\02LaptopShop\obj\x86\Release\02LaptopShop.pdb
