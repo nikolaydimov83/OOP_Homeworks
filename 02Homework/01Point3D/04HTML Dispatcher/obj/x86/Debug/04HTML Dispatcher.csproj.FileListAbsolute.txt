@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\04HTML Dispatcher\bin\Debug\04HTML Dispatcher.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\04HTML Dispatcher\bin\Debug\04HTML Dispatcher.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\04HTML Dispatcher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\04HTML Dispatcher\obj\x86\Debug\04HTML Dispatcher.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\04HTML Dispatcher\obj\x86\Debug\04HTML Dispatcher.pdb

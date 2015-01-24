@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06Namespaces", "06Namespace
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03Paths", "03Paths\03Paths.csproj", "{74A29240-2AB3-47EE-9759-F3C1BA8F497D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04HTML Dispatcher", "04HTML Dispatcher\04HTML Dispatcher.csproj", "{08179BD6-3AFB-4F6D-A342-A8837E45B4A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -31,6 +33,10 @@ Global
 		{74A29240-2AB3-47EE-9759-F3C1BA8F497D}.Debug|x86.Build.0 = Debug|x86
 		{74A29240-2AB3-47EE-9759-F3C1BA8F497D}.Release|x86.ActiveCfg = Release|x86
 		{74A29240-2AB3-47EE-9759-F3C1BA8F497D}.Release|x86.Build.0 = Release|x86
+		{08179BD6-3AFB-4F6D-A342-A8837E45B4A1}.Debug|x86.ActiveCfg = Debug|x86
+		{08179BD6-3AFB-4F6D-A342-A8837E45B4A1}.Debug|x86.Build.0 = Debug|x86
+		{08179BD6-3AFB-4F6D-A342-A8837E45B4A1}.Release|x86.ActiveCfg = Release|x86
+		{08179BD6-3AFB-4F6D-A342-A8837E45B4A1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
