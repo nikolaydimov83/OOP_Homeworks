@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Point3D", "01Point3D\01Point3D.csproj", "{3B74042F-2605-4F83-8AF3-F95BA2AD8A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02DistanceCalculator", "02DistanceCalculator\02DistanceCalculator.csproj", "{E092AEFE-7585-422D-84BB-76CF2F52891C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06Namespaces", "06Namespaces\06Namespaces.csproj", "{F8ADF390-AACF-41F0-AF4F-5A6CCEAA3700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B74042F-2605-4F83-8AF3-F95BA2AD8A4C}.Debug|x86.ActiveCfg = Debug|x86
+		{3B74042F-2605-4F83-8AF3-F95BA2AD8A4C}.Debug|x86.Build.0 = Debug|x86
+		{3B74042F-2605-4F83-8AF3-F95BA2AD8A4C}.Release|x86.ActiveCfg = Release|x86
+		{3B74042F-2605-4F83-8AF3-F95BA2AD8A4C}.Release|x86.Build.0 = Release|x86
+		{E092AEFE-7585-422D-84BB-76CF2F52891C}.Debug|x86.ActiveCfg = Debug|x86
+		{E092AEFE-7585-422D-84BB-76CF2F52891C}.Debug|x86.Build.0 = Debug|x86
+		{E092AEFE-7585-422D-84BB-76CF2F52891C}.Release|x86.ActiveCfg = Release|x86
+		{E092AEFE-7585-422D-84BB-76CF2F52891C}.Release|x86.Build.0 = Release|x86
+		{F8ADF390-AACF-41F0-AF4F-5A6CCEAA3700}.Debug|x86.ActiveCfg = Debug|x86
+		{F8ADF390-AACF-41F0-AF4F-5A6CCEAA3700}.Debug|x86.Build.0 = Debug|x86
+		{F8ADF390-AACF-41F0-AF4F-5A6CCEAA3700}.Release|x86.ActiveCfg = Release|x86
+		{F8ADF390-AACF-41F0-AF4F-5A6CCEAA3700}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

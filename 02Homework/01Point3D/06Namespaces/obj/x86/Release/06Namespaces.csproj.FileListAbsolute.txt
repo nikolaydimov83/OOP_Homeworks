@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\06Namespaces\bin\Release\06Namespaces.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\06Namespaces\bin\Release\06Namespaces.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\06Namespaces\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\06Namespaces\obj\x86\Release\06Namespaces.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\06Namespaces\obj\x86\Release\06Namespaces.pdb
