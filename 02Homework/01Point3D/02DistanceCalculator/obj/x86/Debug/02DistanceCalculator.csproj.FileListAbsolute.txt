@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\02DistanceCalculator\bin\Debug\02DistanceCalculator.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\02DistanceCalculator\bin\Debug\02DistanceCalculator.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\02DistanceCalculator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\02DistanceCalculator\obj\x86\Debug\02DistanceCalculator.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\02DistanceCalculator\obj\x86\Debug\02DistanceCalculator.pdb

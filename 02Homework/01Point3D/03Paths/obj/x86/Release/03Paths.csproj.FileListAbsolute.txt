@@ -1,0 +1,7 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\03Paths\bin\Release\03Paths.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\03Paths\bin\Release\03Paths.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\03Paths\bin\Release\01Point3D.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\03Paths\bin\Release\01Point3D.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\03Paths\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\03Paths\obj\x86\Release\03Paths.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\02Homework\01Point3D\03Paths\obj\x86\Release\03Paths.pdb
