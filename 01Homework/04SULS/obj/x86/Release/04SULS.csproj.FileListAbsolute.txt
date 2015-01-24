@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\01Homework\04SULS\bin\Release\04SULS.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\01Homework\04SULS\bin\Release\04SULS.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\01Homework\04SULS\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\01Homework\04SULS\obj\x86\Release\04SULS.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\01Homework\04SULS\obj\x86\Release\04SULS.pdb
