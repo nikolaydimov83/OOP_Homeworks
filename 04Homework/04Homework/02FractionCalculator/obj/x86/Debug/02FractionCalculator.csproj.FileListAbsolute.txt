@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\02FractionCalculator\bin\Debug\02FractionCalculator.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\02FractionCalculator\bin\Debug\02FractionCalculator.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\02FractionCalculator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\02FractionCalculator\obj\x86\Debug\02FractionCalculator.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\02FractionCalculator\obj\x86\Debug\02FractionCalculator.pdb

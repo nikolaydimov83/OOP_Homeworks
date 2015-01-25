@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04Homework\bin\Debug\04Homework.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04Homework\bin\Debug\04Homework.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04Homework\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04Homework\obj\x86\Debug\04Homework.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04Homework\obj\x86\Debug\04Homework.pdb
