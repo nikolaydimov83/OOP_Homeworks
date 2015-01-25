@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\03Homework\01SquareRoot\01SquareRoot\bin\Debug\01SquareRoot.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\03Homework\01SquareRoot\01SquareRoot\bin\Debug\01SquareRoot.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\03Homework\01SquareRoot\01SquareRoot\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\03Homework\01SquareRoot\01SquareRoot\obj\x86\Debug\01SquareRoot.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\03Homework\01SquareRoot\01SquareRoot\obj\x86\Debug\01SquareRoot.pdb

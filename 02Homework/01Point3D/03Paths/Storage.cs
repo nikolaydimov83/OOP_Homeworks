@@ -13,6 +13,7 @@ namespace _03Paths
         public static Path3D readPathFromFile(string filePlace) 
         
         {
+            
             string[] lines = System.IO.File.ReadAllLines(filePlace);
             List<Point3D> listOfPoints = new List<Point3D>();
             foreach (var line in lines)
