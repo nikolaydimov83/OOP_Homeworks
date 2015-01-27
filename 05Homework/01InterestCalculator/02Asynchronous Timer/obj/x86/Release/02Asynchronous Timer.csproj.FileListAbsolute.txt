@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\05Homework\01InterestCalculator\02Asynchronous Timer\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\05Homework\01InterestCalculator\02Asynchronous Timer\bin\Release\02Asynchronous Timer.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\05Homework\01InterestCalculator\02Asynchronous Timer\bin\Release\02Asynchronous Timer.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\05Homework\01InterestCalculator\02Asynchronous Timer\obj\x86\Release\02Asynchronous Timer.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\05Homework\01InterestCalculator\02Asynchronous Timer\obj\x86\Release\02Asynchronous Timer.pdb

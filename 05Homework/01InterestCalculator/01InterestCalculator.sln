@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01InterestCalculator", "01I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03StudentClass", "03StudentClass\03StudentClass.csproj", "{2E1A9786-04C7-449A-91D6-53FC3E3D6319}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02AsyncTimer", "ConsoleApplication1\02AsyncTimer.csproj", "{364D9BDC-19A6-484F-95E0-D369A13F6C5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{2E1A9786-04C7-449A-91D6-53FC3E3D6319}.Debug|x86.Build.0 = Debug|x86
 		{2E1A9786-04C7-449A-91D6-53FC3E3D6319}.Release|x86.ActiveCfg = Release|x86
 		{2E1A9786-04C7-449A-91D6-53FC3E3D6319}.Release|x86.Build.0 = Release|x86
+		{364D9BDC-19A6-484F-95E0-D369A13F6C5D}.Debug|x86.ActiveCfg = Debug|x86
+		{364D9BDC-19A6-484F-95E0-D369A13F6C5D}.Debug|x86.Build.0 = Debug|x86
+		{364D9BDC-19A6-484F-95E0-D369A13F6C5D}.Release|x86.ActiveCfg = Release|x86
+		{364D9BDC-19A6-484F-95E0-D369A13F6C5D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
