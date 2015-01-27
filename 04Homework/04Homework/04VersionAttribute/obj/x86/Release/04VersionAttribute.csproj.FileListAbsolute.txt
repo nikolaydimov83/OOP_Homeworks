@@ -1,0 +1,7 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04VersionAttribute\bin\Release\04VersionAttribute.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04VersionAttribute\bin\Release\04VersionAttribute.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04VersionAttribute\bin\Release\03Generic List.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04VersionAttribute\bin\Release\03Generic List.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04VersionAttribute\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04VersionAttribute\obj\x86\Release\04VersionAttribute.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\04VersionAttribute\obj\x86\Release\04VersionAttribute.pdb

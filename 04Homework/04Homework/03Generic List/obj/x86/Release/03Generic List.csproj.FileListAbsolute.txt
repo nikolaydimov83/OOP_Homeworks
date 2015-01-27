@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\03Generic List\bin\Release\03Generic List.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\03Generic List\bin\Release\03Generic List.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\03Generic List\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\03Generic List\obj\x86\Release\03Generic List.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\04Homework\04Homework\03Generic List\obj\x86\Release\03Generic List.pdb
