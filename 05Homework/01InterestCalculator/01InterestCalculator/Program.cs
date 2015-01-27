@@ -19,12 +19,6 @@ namespace _01InterestCalculator
             
             return ((double)sum * (Math.Pow(((1 + (interest / 12))),(years*12))));
         }
-
-        /*public static void Printer(InterestCalculator calculator)
-        {
-            double result = calculator.IntCalc();
-        }*/
-
         
         static void Main(string[] args)
         {

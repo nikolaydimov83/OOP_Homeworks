@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\05Homework\01InterestCalculator\03StudentClass\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\05Homework\01InterestCalculator\03StudentClass\bin\Release\03StudentClass.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\05Homework\01InterestCalculator\03StudentClass\bin\Release\03StudentClass.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\05Homework\01InterestCalculator\03StudentClass\obj\x86\Release\03StudentClass.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\05Homework\01InterestCalculator\03StudentClass\obj\x86\Release\03StudentClass.pdb
