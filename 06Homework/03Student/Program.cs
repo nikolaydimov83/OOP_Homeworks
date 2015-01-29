@@ -20,10 +20,10 @@ namespace _03Student
         {
             List<Student> testList=new List<Student> 
             {
-                new Student ("Pesho","Agoncev",20,12341456,"02 896 615 658","pesho@abv.bg",new List<int>{2,2,6,3,6},2)
-                ,new Student ("Gosho","Zetov",25,1234156,"+3592 896 616 758","gosho@abv.bg",new List<int>{2,3,3,4,5},2)
-                ,new Student ("Mrancho","Bonchev",22,1234164,"+359 2 896 785 758","mranchev@abv.bg",new List<int>{6,6,6,6,6},1)
-                ,new Student ("Zubar","Zubarov",23,1234175,"359 887 785 758","zubara@abg.bg",new List<int>{2,2,2,6,6},1)
+                new Student ("Pesho","Agoncev",20,12341456,"02 896 615 658","pesho@abv.bg",new List<int>{2,2,6,3,6},2,"Mediocre")
+                ,new Student ("Gosho","Zetov",25,1234156,"+3592 896 616 758","gosho@abv.bg",new List<int>{2,3,3,4,5},2, "First Class")
+                ,new Student ("Mrancho","Bonchev",22,1234164,"+359 2 896 785 758","mranchev@abv.bg",new List<int>{6,6,6,6,6},1, "First Class")
+                ,new Student ("Zubar","Zubarov",23,1234175,"359 887 785 758","zubara@abg.bg",new List<int>{2,2,2,6,6},1, "Mediocre")
             };
             
             var listToDisplay=testList.Where(x=>x.GroupNumber==2).OrderBy(x=>x.FirstName);
@@ -64,6 +64,19 @@ namespace _03Student
             var listToDisplay8 = testList.Where(x => x.FaculltyNumber.ToString()[5] == '1' && x.FaculltyNumber.ToString()[6] == '4');
             Console.WriteLine();
             Print(listToDisplay8);
+
+            var listToDisplay9 = from student in testList
+                                 group student by student.GroupName into g
+                                 orderby g.Key
+                                 select g;
+
+            foreach (var group in listToDisplay9)
+            {
+                var groupKey = group.Key;
+                Console.WriteLine(groupKey);
+                foreach (var groupedItem in group)
+                    Console.WriteLine("     "+groupedItem.ToString());
+            }
         }
     }
 }

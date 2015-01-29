@@ -15,6 +15,7 @@ namespace _03Student
         private string email;
         private IList<int> marks;
         private int groupNumber;
+        public string groupName;
 
         public string FirstName
         {
@@ -85,9 +86,15 @@ namespace _03Student
             set { this.groupNumber = value; }
         }
 
+        public string GroupName
+        {
+            get { return this.groupName; }
+            set { this.groupName = value; }
+        }
+
         public Student(string firstName, string lastName, int age,
                        int facultyNumber, string phone, string email,
-                       IList<int> marks, int groupNumber) 
+                       IList<int> marks, int groupNumber,string groupName) 
         {
             this.FirstName = firstName;
             this.LastName = lastName;
@@ -96,7 +103,8 @@ namespace _03Student
             this.Phone = phone;
             this.Email = email;
             this.Marks = marks;
-            this.GroupNumber = groupNumber;        
+            this.GroupNumber = groupNumber;
+            this.GroupName = groupName;
         }
         public override string ToString()
         {
