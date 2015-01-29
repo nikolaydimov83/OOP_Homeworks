@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\06Homework\02Custom LINQ Extension Methods\bin\Debug\02Custom LINQ Extension Methods.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\06Homework\02Custom LINQ Extension Methods\bin\Debug\02Custom LINQ Extension Methods.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\06Homework\02Custom LINQ Extension Methods\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\06Homework\02Custom LINQ Extension Methods\obj\x86\Debug\02Custom LINQ Extension Methods.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\06Homework\02Custom LINQ Extension Methods\obj\x86\Debug\02Custom LINQ Extension Methods.pdb

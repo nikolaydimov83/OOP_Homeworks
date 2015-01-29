@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01StringBuilder Extensions", "05Homework\01StringBuilder Extensions.csproj", "{D48F3368-0158-4FF5-835E-65886ABD4C58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Custom LINQ Extension Methods", "02Custom LINQ Extension Methods\02Custom LINQ Extension Methods.csproj", "{0342F0A1-C520-4A65-AF8D-6515D4B243A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{D48F3368-0158-4FF5-835E-65886ABD4C58}.Debug|x86.Build.0 = Debug|x86
 		{D48F3368-0158-4FF5-835E-65886ABD4C58}.Release|x86.ActiveCfg = Release|x86
 		{D48F3368-0158-4FF5-835E-65886ABD4C58}.Release|x86.Build.0 = Release|x86
+		{0342F0A1-C520-4A65-AF8D-6515D4B243A6}.Debug|x86.ActiveCfg = Debug|x86
+		{0342F0A1-C520-4A65-AF8D-6515D4B243A6}.Debug|x86.Build.0 = Debug|x86
+		{0342F0A1-C520-4A65-AF8D-6515D4B243A6}.Release|x86.ActiveCfg = Release|x86
+		{0342F0A1-C520-4A65-AF8D-6515D4B243A6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

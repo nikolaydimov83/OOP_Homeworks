@@ -1,0 +1,2 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\06Homework\05Homework\obj\x86\Debug\05Homework.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\06Homework\05Homework\obj\x86\Debug\05Homework.pdb
