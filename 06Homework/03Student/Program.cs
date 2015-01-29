@@ -26,57 +26,84 @@ namespace _03Student
                 ,new Student ("Zubar","Zubarov",23,1234175,"359 887 785 758","zubara@abg.bg",new List<int>{2,2,2,6,6},1, "Mediocre")
             };
             
-            var listToDisplay=testList.Where(x=>x.GroupNumber==2).OrderBy(x=>x.FirstName);
-                
-            Print(listToDisplay);
+            var groupNumberTwo=testList.Where(x=>x.GroupNumber==2).OrderBy(x=>x.FirstName);
+
+            Print(groupNumberTwo);
             Console.WriteLine();
 
-            var listToDisplay1 = testList.Where(x => (x.FirstName.CompareTo(x.LastName) == -1));
-            Print(listToDisplay1);
+            var firstNameBeforeLastName = testList.Where(x => (x.FirstName.CompareTo(x.LastName) == -1));
+            Print(firstNameBeforeLastName);
             Console.WriteLine();
                 
-            var listToDisplay2 = testList.Where(x => (x.Age > 18 && x.Age < 24)).Select(x => new { x.FirstName, x.LastName, x.Age });
-            foreach (var item in listToDisplay2)
+            var ageBetween = testList.Where(x => (x.Age > 18 && x.Age < 24)).Select(x => new { x.FirstName, x.LastName, x.Age });
+            foreach (var item in ageBetween)
               {
                   Console.WriteLine(item.FirstName + " " + item.LastName + " " + item.Age);
               }
 
-            var ListToDisplay3 = testList.OrderByDescending(x => x.FirstName).ThenByDescending(x => x.LastName);
+            var orderByName = testList.OrderByDescending(x => x.FirstName).ThenByDescending(x => x.LastName);
             Console.WriteLine();
-            Print(ListToDisplay3);
+            Print(orderByName);
 
-            var listToDisplay4 = testList.Where(x => x.Email.EndsWith("@abv.bg"));
+            var emailAbv = testList.Where(x => x.Email.EndsWith("@abv.bg"));
             Console.WriteLine();
-            Print(listToDisplay4);
+            Print(emailAbv);
 
-            var listToDisplay5 = testList.Where(x => x.Phone.StartsWith("02") || x.Phone.StartsWith("+3592") || x.Phone.StartsWith("+359 2"));
+            var phoneStarts = testList.Where(x => x.Phone.StartsWith("02") || x.Phone.StartsWith("+3592") || x.Phone.StartsWith("+359 2"));
             Console.WriteLine();
-            Print(listToDisplay5);
+            Print(phoneStarts);
 
-            var listToDisplay6=testList.Where(x=>x.Marks.Contains(6));
+            var atLeastOneSix=testList.Where(x=>x.Marks.Contains(6));
             Console.WriteLine();
-            Print(listToDisplay6);
+            Print(atLeastOneSix);
 
-            var listToDisplay7 = testList.Where(x => x.Marks.Count(y=>y==2)==2);
+            var exactlyTwoTwos = testList.Where(x => x.Marks.Count(y=>y==2)==2);
             Console.WriteLine();
-            Print(listToDisplay7);
+            Print(exactlyTwoTwos);
 
-            var listToDisplay8 = testList.Where(x => x.FaculltyNumber.ToString()[5] == '1' && x.FaculltyNumber.ToString()[6] == '4');
+            var enlisted2014 = testList.Where(x => x.FaculltyNumber.ToString()[5] == '1' && x.FaculltyNumber.ToString()[6] == '4');
             Console.WriteLine();
-            Print(listToDisplay8);
+            Print(enlisted2014);
 
-            var listToDisplay9 = from student in testList
+            var tryGroupBy = from student in testList
                                  group student by student.GroupName into g
                                  orderby g.Key
                                  select g;
 
-            foreach (var group in listToDisplay9)
+            foreach (var group in tryGroupBy)
             {
                 var groupKey = group.Key;
                 Console.WriteLine(groupKey);
                 foreach (var groupedItem in group)
+                {
                     Console.WriteLine("     "+groupedItem.ToString());
+                }
             }
+
+            List<StudentSpecialty> listofSpecialities = new List<StudentSpecialty>() 
+            { 
+            new StudentSpecialty("Web Developer",12341456),
+            new StudentSpecialty("PHP Developer",12341456),
+            new StudentSpecialty("C# Developer",12341456),
+            new StudentSpecialty("QA engineer",12341456),
+
+            new StudentSpecialty("Javascript guru",1234156),
+            new StudentSpecialty("Ruby master",1234156),
+            new StudentSpecialty("Fortran developer",1234156),
+
+            new StudentSpecialty("C# Developer",1234175),
+            new StudentSpecialty("QA engineer",1234175),
+            new StudentSpecialty("Javascript guru",1234175),
+            new StudentSpecialty("Ruby master",1234175)
+            };
+
+            var joinedList=listofSpecialities.Join(testList, x => x.FacultyNumber, y => y.FaculltyNumber, (facultyNums, students) => new { facultyNums.SpecialityName, facultyNums.FacultyNumber, students.FirstName, students.LastName });
+            var joinedListToDisplay=joinedList.ToList();
+            foreach (var item in joinedListToDisplay)
+            {
+                Console.WriteLine(item.FacultyNumber + " " + item.SpecialityName + " " + item.FirstName + " " + item.LastName);
+            }
+
         }
     }
 }
