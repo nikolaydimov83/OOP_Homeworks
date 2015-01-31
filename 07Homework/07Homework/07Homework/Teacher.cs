@@ -8,7 +8,6 @@ namespace _07Homework
     class Teacher:Person
     {
         private List<Discipline> disciplinesTeached = new List<Discipline>();
-        
         public Teacher(string name) :base(name)
         {
         
@@ -25,6 +24,14 @@ namespace _07Homework
             get { return this.disciplinesTeached; }
         }
 
+        public int NumberOfCourses
+        {
+            get 
+            {
+                return AllDisciplines.CalculateNumberOfCourses(this.Name); 
+            }
+        }
+
         public override void Enroll(string disciplineToEnroll)
         {
 
@@ -35,7 +42,14 @@ namespace _07Homework
                 {
                     disciplinesTeached.Add(discipline);
                     checkTimesDisciplineExists++;
-                    AllDisciplines.disciplineTeachers[discipline.Name].Add(this);
+                    if (AllDisciplines.disciplineTeachers.ContainsKey(discipline.Name))
+                    {
+                        AllDisciplines.disciplineTeachers[discipline.Name].Add(this);
+                    }
+                    else 
+                    {
+                        AllDisciplines.disciplineTeachers.Add(discipline.Name,new List<Teacher>{this});
+                    }
                 }
                 if (checkTimesDisciplineExists == 0)
                 {

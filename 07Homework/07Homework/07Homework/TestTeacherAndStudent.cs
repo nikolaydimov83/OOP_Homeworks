@@ -23,6 +23,7 @@ namespace _07Homework
             nakov.Enroll(math.Name);
 
             ClassOfStudents trial = new ClassOfStudents(new List<Teacher>{nakov, takov},"7A","some details");
+            int a = nakov.NumberOfCourses;
             
         }
     }
