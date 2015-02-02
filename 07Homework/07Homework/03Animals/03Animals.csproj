@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{07E4C4DE-3452-42DA-B7BE-3D7213CED6CD}</ProjectGuid>
+    <ProjectGuid>{D802E31A-8B93-4059-BADD-B3DC0FB1017F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_07Homework</RootNamespace>
-    <AssemblyName>07Homework</AssemblyName>
+    <RootNamespace>_03Animals</RootNamespace>
+    <AssemblyName>03Animals</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,15 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AllDisciplines.cs" />
-    <Compile Include="ClassOfStudents.cs" />
-    <Compile Include="Discipline.cs" />
-    <Compile Include="IEnrollable.cs" />
-    <Compile Include="Person.cs" />
-    <Compile Include="TestTeacherAndStudent.cs" />
+    <Compile Include="Animal.cs" />
+    <Compile Include="Cat.cs" />
+    <Compile Include="Tomcat.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="Frog.cs" />
+    <Compile Include="ISound.cs" />
+    <Compile Include="Kitten.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Teacher.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\07Homework\07Homework\03Animals\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\07Homework\07Homework\03Animals\bin\Release\03Animals.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\07Homework\07Homework\03Animals\bin\Release\03Animals.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\07Homework\07Homework\03Animals\obj\x86\Release\03Animals.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\07Homework\07Homework\03Animals\obj\x86\Release\03Animals.pdb
