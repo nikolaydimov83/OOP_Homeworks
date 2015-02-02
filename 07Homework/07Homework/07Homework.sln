@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02HumanStudentWorker", "02H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03Animals", "03Animals\03Animals.csproj", "{D802E31A-8B93-4059-BADD-B3DC0FB1017F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04CompanyHierarchy", "04CompanyHierarchy\04CompanyHierarchy.csproj", "{C7D1E687-16E1-4B7B-A3BA-D5EAD17D0891}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,6 +27,10 @@ Global
 		{D802E31A-8B93-4059-BADD-B3DC0FB1017F}.Debug|x86.Build.0 = Debug|x86
 		{D802E31A-8B93-4059-BADD-B3DC0FB1017F}.Release|x86.ActiveCfg = Release|x86
 		{D802E31A-8B93-4059-BADD-B3DC0FB1017F}.Release|x86.Build.0 = Release|x86
+		{C7D1E687-16E1-4B7B-A3BA-D5EAD17D0891}.Debug|x86.ActiveCfg = Debug|x86
+		{C7D1E687-16E1-4B7B-A3BA-D5EAD17D0891}.Debug|x86.Build.0 = Debug|x86
+		{C7D1E687-16E1-4B7B-A3BA-D5EAD17D0891}.Release|x86.ActiveCfg = Release|x86
+		{C7D1E687-16E1-4B7B-A3BA-D5EAD17D0891}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
