@@ -1,1 +1,3 @@
 C:\Documents and Settings\User\Local Settings\Application Data\Temporary Projects\07Homework\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\07Homework\07Homework\07Homework\obj\x86\Debug\07Homework.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\07Homework\07Homework\07Homework\obj\x86\Debug\07Homework.pdb
