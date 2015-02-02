@@ -9,6 +9,8 @@ namespace _04CompanyHierarchy
     {
         static void Main(string[] args)
         {
+            Project newProject = new Project("TestProject", new DateTime(2011,11,25), "detail");
+            newProject.CloseProject();
         }
     }
 }

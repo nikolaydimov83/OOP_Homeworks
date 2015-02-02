@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _04CompanyHierarchy
 {
-    public abstract class Sale
+    public class Sale
     {
         private string productName;
         private DateTime date;
@@ -26,7 +26,7 @@ namespace _04CompanyHierarchy
                 {
                     throw new ArgumentException("Product name cannot be empty");
                 }
-                this.ProductName = value; 
+                this.productName = value; 
             }
         }
 
