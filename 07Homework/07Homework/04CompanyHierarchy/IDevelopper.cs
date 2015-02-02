@@ -7,6 +7,6 @@ namespace _04CompanyHierarchy
 {
     interface IDevelopper
     {
-        public List<Project>SetOfProjects{ get; set; }
+        List<Project>SetOfProjects{ get; }
     }
 }

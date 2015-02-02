@@ -28,5 +28,15 @@ namespace _04CompanyHierarchy
         {
             return this.Salary / (decimal)this.setOfProjects.Count;
         }
+
+        public void AddProject(string projectName, DateTime projectStartDate, string details)
+        {
+            this.setOfProjects.Add(new Project(projectName,projectStartDate,details));
+        }
+
+        public override string ToString()
+        {
+            return String.Format(this.Id+" "+this.FirstName+this.LastName+" "+this.Salary+" "+this.Department+" "+this.SetOfProjects.Count);
+        }
     }
 }

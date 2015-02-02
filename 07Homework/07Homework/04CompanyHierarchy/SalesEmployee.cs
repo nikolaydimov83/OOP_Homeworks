@@ -33,5 +33,10 @@ namespace _04CompanyHierarchy
         {
             this.setOfSales.Add(new Sale(productName, date, price));
         }
+
+        public override string ToString()
+        {
+            return String.Format(this.Id+" "+" "+this.FirstName+" "+this.LastName+" "+this.Salary+" "+this.Department+" "+this.SetOfSales.Count);
+        }
     }
 }

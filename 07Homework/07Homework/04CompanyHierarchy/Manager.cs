@@ -32,5 +32,10 @@ namespace _04CompanyHierarchy
         {
             return this.Salary / (decimal)this.EmployeesUnderComand.Count;
         }
+
+        public override string ToString()
+        {
+            return String.Format(this.Id+" "+this.FirstName+this.LastName+" "+this.Salary+" "+this.Department+" "+this.EmployeesUnderComand.Count);
+        }
     }
 }
