@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _08Shapes
 {
-    interface IShape
+    public interface IShape
     {
         double CalculateArea();
         double CalculatePerimeter();
