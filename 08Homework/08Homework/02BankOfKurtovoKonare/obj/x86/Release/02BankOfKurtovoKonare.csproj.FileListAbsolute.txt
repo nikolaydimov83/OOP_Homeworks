@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\08Homework\08Homework\02BankOfKurtovoKonare\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\08Homework\08Homework\02BankOfKurtovoKonare\bin\Release\02BankOfKurtovoKonare.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\08Homework\08Homework\02BankOfKurtovoKonare\bin\Release\02BankOfKurtovoKonare.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\08Homework\08Homework\02BankOfKurtovoKonare\obj\x86\Release\02BankOfKurtovoKonare.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\08Homework\08Homework\02BankOfKurtovoKonare\obj\x86\Release\02BankOfKurtovoKonare.pdb

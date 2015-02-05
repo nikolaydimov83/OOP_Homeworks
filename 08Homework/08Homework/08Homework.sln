@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08Homework", "08Homework\08Homework.csproj", "{BC7D8582-D0E0-4681-A06E-8640EC56F672}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Shapes", "08Homework\01Shapes.csproj", "{BC7D8582-D0E0-4681-A06E-8640EC56F672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02BankOfKurtovoKonare", "02BankOfKurtovoKonare\02BankOfKurtovoKonare.csproj", "{9E2937D7-5B58-420D-AAA0-3E5376BD5206}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{BC7D8582-D0E0-4681-A06E-8640EC56F672}.Debug|x86.Build.0 = Debug|x86
 		{BC7D8582-D0E0-4681-A06E-8640EC56F672}.Release|x86.ActiveCfg = Release|x86
 		{BC7D8582-D0E0-4681-A06E-8640EC56F672}.Release|x86.Build.0 = Release|x86
+		{9E2937D7-5B58-420D-AAA0-3E5376BD5206}.Debug|x86.ActiveCfg = Debug|x86
+		{9E2937D7-5B58-420D-AAA0-3E5376BD5206}.Debug|x86.Build.0 = Debug|x86
+		{9E2937D7-5B58-420D-AAA0-3E5376BD5206}.Release|x86.ActiveCfg = Release|x86
+		{9E2937D7-5B58-420D-AAA0-3E5376BD5206}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
