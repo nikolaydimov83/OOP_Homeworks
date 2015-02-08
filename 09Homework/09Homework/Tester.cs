@@ -19,6 +19,7 @@ namespace _09Homework
 
             Customer pesho = new Customer("Pesho", "Petrov", "Ivanov", 78524, "18 Atanas Velkov str.", "0899335452", "pesho@abv.bg", listOfPayments,CustomerType.Golden);
             Customer gosho = (Customer)pesho.Clone();
+            gosho.ID = 68524;
 
             Payment payment3 = new Payment("Mandarsalka", 100m);
             Payment payment4 = new Payment("Shmarkalka", 10m);
@@ -27,6 +28,7 @@ namespace _09Homework
             gosho.Payments = listOfPaymentsNew;
             Console.WriteLine(pesho.ToString());
             Console.WriteLine(gosho.ToString());
+            Console.WriteLine(pesho.CompareTo(gosho));
 
 
         }

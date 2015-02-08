@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\09Homework\StringDisperser\bin\Debug\StringDisperser.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\09Homework\StringDisperser\bin\Debug\StringDisperser.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\09Homework\StringDisperser\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\09Homework\StringDisperser\obj\x86\Debug\StringDisperser.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\09Homework\StringDisperser\obj\x86\Debug\StringDisperser.pdb
