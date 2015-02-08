@@ -15,6 +15,13 @@ namespace StringDisperser
             object obj1 = new object();
             Console.WriteLine(stringDisperser.Equals(obj));
             Console.WriteLine(stringDisperser.Equals(obj1));
+
+            StringDisperser stringDisperser1 = new StringDisperser("gosho", "pesho", "tanio");
+            foreach (var ch in stringDisperser)
+            {
+                Console.Write(ch + " ");
+            }
+
         }
     }
 }
