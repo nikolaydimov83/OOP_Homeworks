@@ -1,0 +1,6 @@
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\Furniture\Problem-1-Furtniture\Skeleton\FurnitureManufacturer\bin\Debug\Furnitures.exe.config
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\Furniture\Problem-1-Furtniture\Skeleton\FurnitureManufacturer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\Furniture\Problem-1-Furtniture\Skeleton\FurnitureManufacturer\bin\Debug\Furnitures.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\Furniture\Problem-1-Furtniture\Skeleton\FurnitureManufacturer\bin\Debug\Furnitures.pdb
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\Furniture\Problem-1-Furtniture\Skeleton\FurnitureManufacturer\obj\Debug\Furnitures.exe
+C:\Documents and Settings\User\Desktop\OOP_Homeworks\trunk\Furniture\Problem-1-Furtniture\Skeleton\FurnitureManufacturer\obj\Debug\Furnitures.pdb
