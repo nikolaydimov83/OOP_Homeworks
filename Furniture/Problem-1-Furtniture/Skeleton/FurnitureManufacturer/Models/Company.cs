@@ -10,7 +10,13 @@ namespace FurnitureManufacturer.Models
     {
         private string name;
         private string registrationNumber;
-        private ICollection<IFurniture> furnitures;
+        private ICollection<IFurniture> furnitures= new List<IFurniture>();
+
+        public Company(string name, string registrationNumber)
+        {
+            this.Name = name;
+            this.RegistrationNumber = registrationNumber;
+        }
 
         public string Name
         {
@@ -57,12 +63,26 @@ namespace FurnitureManufacturer.Models
 
         public IFurniture Find(string model)
         {
-            return this.furnitures.First(x=>x.Model==model) ?? null;
+            return this.furnitures.FirstOrDefault(x=>x.Model.ToLower()==model.ToLower());
         }
 
         public string Catalog()
         {
-            throw new NotImplementedException();
+            string result = String.Format("{0} - {1} - {2} {3}", 
+                this.Name, 
+                this.RegistrationNumber, 
+                this.Furnitures.Count != 0 ? this.Furnitures.Count.ToString() : "no",
+                this.Furnitures.Count != 1 ? "furnitures" : "furniture");
+            StringBuilder displayEachFurniture = new StringBuilder(result);
+            var orderedFurniture = this.furnitures.OrderBy(x => x.Price).ThenBy(x => x.Model);
+            foreach (var item in orderedFurniture)
+	        {
+                displayEachFurniture.AppendLine();
+                displayEachFurniture.Append(item.ToString());
+                
+	        }
+            return displayEachFurniture.ToString();
         }
     }
 }
+                 

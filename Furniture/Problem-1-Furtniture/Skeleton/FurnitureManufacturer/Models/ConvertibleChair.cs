@@ -16,6 +16,12 @@ namespace FurnitureManufacturer.Models
         private decimal normalHeight;
         private ChairState chairState;
 
+        public ConvertibleChair(string model, string material, decimal price, decimal height, int numberOfLegs, bool isConverted)
+            :base(model, material, price, height, numberOfLegs)
+        {
+            this.IsConverted = isConverted;
+        }
+
         public ChairState ChairState 
         {
             get { return this.chairState; }
@@ -36,7 +42,7 @@ namespace FurnitureManufacturer.Models
             if (isConverted == false)
             {
                 this.normalHeight = this.height;
-                this.height = 0.1m;
+                this.height = 0.10m;
                 this.chairState = ChairState.Converted;
             }
             else 
@@ -45,6 +51,10 @@ namespace FurnitureManufacturer.Models
                 this.chairState = ChairState.Normal;
             }
             this.isConverted = !this.isConverted;
+        }
+        public override string ToString()
+        {
+            return base.ToString()+string.Format(", State: {0}", this.IsConverted ? "Converted" : "Normal");
         }
     }
 }

@@ -10,12 +10,20 @@ namespace FurnitureManufacturer.Models
     {
         private string model;
         private string material;
-        private decimal price;
+        protected decimal price;
         protected decimal height;
+
+        public Furniture(string model, string material, decimal price, decimal height)
+        {
+            this.Model = model;
+            this.Material = material;
+            this.Price = price;
+            this.Height = height;
+        }
         
         public string Model
         {
-            get { throw new NotImplementedException(); }
+            get { return this.model; }
             private set 
             {
                 if (string.IsNullOrEmpty(value) || value.Length < 3) 
@@ -29,7 +37,10 @@ namespace FurnitureManufacturer.Models
         public string Material
         {
             get { return this.material; }
-            private set { this.material = value; }
+            private set 
+            {
+                this.material = Enum.Parse(typeof(MaterialType), value,true).ToString();
+            }
         }
 
         public decimal Price
@@ -38,7 +49,7 @@ namespace FurnitureManufacturer.Models
             {
                 return this.price;
             }
-            private set
+            set
             {
                 if (value<=0)
                 {
@@ -57,9 +68,13 @@ namespace FurnitureManufacturer.Models
                 {
                     throw new ArgumentException("Price cannot be below 0");
                 }
+                this.height=value;
             }
         }
 
-        
+        public override string ToString()
+        {
+            return String.Format("Type: {0}, Model: {1}, Material: {2}, Price: {3}, Height: {4}", this.GetType().Name, this.Model, this.Material, this.Price, this.Height);
+        }     
     }
 }

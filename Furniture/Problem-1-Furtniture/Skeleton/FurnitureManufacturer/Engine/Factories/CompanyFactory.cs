@@ -9,7 +9,7 @@
     {
         public ICompany CreateCompany(string name, string registrationNumber)
         {
-            throw new NotImplementedException("");
+            return new Company(name,registrationNumber);
         }
     }
 }

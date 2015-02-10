@@ -15,22 +15,22 @@
 
         public ITable CreateTable(string model, string materialType, decimal price, decimal height, decimal length, decimal width)
         {
-            throw new NotImplementedException("");
+            return new Table(model, materialType, price, height, length, width);
         }
 
         public IChair CreateChair(string model, string materialType, decimal price, decimal height, int numberOfLegs)
         {
-            throw new NotImplementedException("");
+            return new Chair(model, materialType, price, height, numberOfLegs);
         }
 
         public IAdjustableChair CreateAdjustableChair(string model, string materialType, decimal price, decimal height, int numberOfLegs)
         {
-            throw new NotImplementedException("");
+            return new AdjustableChair(model, materialType, price, height, numberOfLegs);
         }
 
         public IConvertibleChair CreateConvertibleChair(string model, string materialType, decimal price, decimal height, int numberOfLegs)
         {
-            throw new NotImplementedException("");
+            return new ConvertibleChair(model,materialType,price,height,numberOfLegs,false);
         }
 
         private MaterialType GetMaterialType(string material)
